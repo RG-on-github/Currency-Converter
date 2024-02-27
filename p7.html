@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Bricolage+Grotesque&family=Montserrat:wght@600&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="p7.css">
+</head>
+<body>
+    <h1>CURRENCY CONVERTER</h1>
+    <div class="container">
+        <div class="box" id="country1">
+            <div class="country_flag" id="country_flag1"></div>
+            <div class="currency_code" id="currency_code1">
+                <select class="cc" id="cc1" required></select>
+                <button id="button1">Submit</button>
+            </div>
+            <div class="exchange_rate" id="exchange_rate1"></div>
+        </div>
+        <div class="box" id="country2">
+            <div class="country_flag" id="country_flag2"></div>
+            <div class="currency_code" id="currency_code2">
+                <select class="cc" id="cc2" required></select>
+                <button id="button2">Submit</button>
+            </div>
+            <div class="exchange_rate" id="exchange_rate2"></div>
+        </div>
+    </div>
+    <div class="container1">
+        <input id="currency_calc" type="number" placeholder="Enter Amount">
+        <button id="button3" type="submit">Submit</button>
+    </div>
+    <div class="final_result" id="final_result1"></div>
+    <div class="final_result" id="final_result2"></div>
+    <script type="module" src="p7.js"></script>
+</body>
+</html>
